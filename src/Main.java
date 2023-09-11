@@ -5,20 +5,5 @@ public class Main {
         System.out.println(cardValidator.validate(creditCard));
 
 
-         /*    public CreditCard(long number, int year, int month, String paymentSystem, Person holder) {
-        this.number = number;
-        this.year = year;
-        this.month = month;
-        this.paymentSystem = paymentSystem;
-        this.holder = holder;
-    }
-
-    public CreditCard(long number, int year, int month, Person holder) {
-        this.number = number;
-        this.year = year;
-        this.month = month;
-        this.holder = holder;
-        this.paymentSystem = Main.PaymentSystemValidator.verifyPaymentSystem(number);
-    }*/
     }
 }
